@@ -1,0 +1,64 @@
+.sidebar {
+  background-color: blue;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 1.5rem;
+  border-radius: 1.5rem;
+  padding: 0rem 2.5rem;
+  width: 20vw;
+}
+.invoice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+.text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.SidebarButtonTxt {
+  padding: 0.75rem 1.25rem;
+  background-color: white;
+  border-radius: 9999px;
+  border: none;
+}
+.clientDetails {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.7 rem;
+  background-color: rgba(227, 219, 219, 0.495);
+  border-radius: 9999px;
+  border: none;
+  margin-bottom: 2.25rem;
+}
+.user {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+.date {
+  color: gray;
+  margin: 0;
+  padding: 0;
+}
+.clientDtl {
+  margin-top: 2.25rem;
+}
+.bottom {
+  margin-top: 2.25rem;
+}
+.clientDtl p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.bottom p {
+  display: flex;
+  justify-content: space-between;
+}
