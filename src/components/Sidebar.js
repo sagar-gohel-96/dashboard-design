@@ -18,7 +18,7 @@ const Sidebar = () => {
             </div>
 
             <div className="clientDtl">
-                <h5 className='date'>Jan'20</h5>
+                <h5 className='date'> Jan'20</h5>
                 <p >client of the Month</p>
                 <div className='clientDetails'>
                     <p className='user'><FaUserCircle /></p>
