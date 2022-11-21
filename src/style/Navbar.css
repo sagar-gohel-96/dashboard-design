@@ -1,0 +1,47 @@
+.Navbar {
+  display: flex;
+  height: 13px;
+  margin: 3rem 4rem;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.Navbar h3 span {
+  margin-right: 0.75rem;
+  color: blue;
+}
+.Navbar h3 {
+  color: blue;
+}
+.Navbook {
+  display: flex;
+  align-items: center;
+
+  margin: 0.5rem;
+}
+.navItem {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.1rem;
+  color: gray;
+  font-weight: 100;
+}
+.navItem :hover {
+  color: blue;
+}
+.navItem p {
+  margin-right: 4rem;
+}
+.navItem p span {
+  margin-right: 1rem;
+}
+.dashboard {
+  color: blue;
+}
+.alert {
+  display: flex;
+}
+.alert .user {
+  margin-left: 2.5em;
+}
