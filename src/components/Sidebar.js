@@ -31,10 +31,9 @@ const Sidebar = () => {
                 </div>
                 <hr />
             </div>
-            <div className='bottom'>    
+            <div className='bottom'>
                 <h5 className='date'>Dec'19 - Jan'20</h5>
                 <p> Earning graph <span><GrFormNextLink /></span></p>
-
             </div>
         </div >
     )

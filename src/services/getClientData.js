@@ -1,4 +1,4 @@
- const clientData = [
+const clientData = [
     {
         cName: "Henry Rechardsen",
         cId: "#063",
