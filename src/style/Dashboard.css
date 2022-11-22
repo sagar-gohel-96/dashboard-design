@@ -15,8 +15,14 @@ input {
   margin: 0.75rem;
   padding: 0.8rem;
 }
+.inp input:focus {
+  outline: none;
+}
 .inp span {
   margin-left: 10px;
+}
+.inp span:hover {
+  cursor: pointer;
 }
 .clientName {
   font-weight: bold;
@@ -26,8 +32,9 @@ input {
   justify-content: center;
   align-items: center;
 }
-.date {
+.service-status {
   color: gray;
+  margin-bottom: -18px;
 }
 .icons {
   font-size: 20px;
@@ -39,6 +46,9 @@ input {
   align-items: center;
   justify-content: center;
   display: flex;
+}
+.icons :hover {
+  cursor: pointer;
 }
 .icons2 {
   background-color: yellow;
@@ -88,7 +98,19 @@ input {
   align-items: center;
 }
 .icon {
+  display: flex;
   font-size: 30px;
+}
+.printer {
+  margin-right: 20px;
+}
+.printer:hover {
+  cursor: pointer;
+  color: blueviolet;
+}
+.download:hover {
+  cursor: pointer;
+  color: blueviolet;
 }
 .clientDashboard {
   margin-left: 2.25rem;
@@ -109,6 +131,11 @@ input {
 .nxtPage {
   color: brown;
   font-weight: bold;
+}
+.nxtPage span {
+  margin-left: 20px;
+  color: brown;
+  cursor: pointer;
 }
 .Nid {
   display: flex;
@@ -137,7 +164,7 @@ input {
 }
 .Overdue {
   color: red;
-  background-color: rgba(163, 70, 70, 0.769);
+  background-color: rgba(198, 170, 170, 0.769);
 }
 .paid {
   color: green;

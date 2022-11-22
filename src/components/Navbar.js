@@ -9,24 +9,21 @@ import { FaUserCircle } from 'react-icons/fa';
 import { HiOutlineDesktopComputer } from 'react-icons/hi';
 const Navbar = () => {
     return (
-        <>
-            <div className='Navbar'>
-                <div className='NavBook'>
-                    <h3><span><SlNotebook /></span> I-Flow</h3>
-                </div>
-                <div className="navItem">
-                    <p className='dashboard'><span><HiOutlineDesktopComputer /> </span> Dashboard </p>
-                    <p><span><TbFileInvoice /></span> Invoice  </p>
-                    <p><span><BsFillPersonFill /></span> Clients</p>
-                    <p><span><FcSettings /></span> Settings</p>
-                </div>
-                <div className="alert">
-                    <p><FaBell /></p>
-                    <p className='user'><FaUserCircle /></p>
-                </div>
+        <div className='Navbar'>
+            <div className='NavBook'>
+                <h3><span><SlNotebook /></span> I-Flow</h3>
             </div>
-        </>
+            <div className="navItem">
+                <p className='dashboard'><span><HiOutlineDesktopComputer /> </span> Dashboard </p>
+                <p><span><TbFileInvoice /></span> Invoice  </p>
+                <p><span><BsFillPersonFill /></span> Clients</p>
+                <p><span><FcSettings /></span> Settings</p>
+            </div>
+            <div className="alert">
+                <p className='Notification' title="Notification"><FaBell /></p>
+                <p className='users' title="Profile"><FaUserCircle /></p>
+            </div>
+        </div>
     )
 }
-
 export default Navbar

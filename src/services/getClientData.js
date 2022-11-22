@@ -1,4 +1,4 @@
-const ClientData = [
+ const clientData = [
     {
         cName: "Henry Rechardsen",
         cId: "#063",
@@ -34,4 +34,4 @@ const ClientData = [
 
 
     }]
-export default ClientData;
+export default clientData;

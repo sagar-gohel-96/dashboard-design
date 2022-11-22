@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: blue;
+  background-color: #196098;
   font-weight: 700;
   color: white;
   display: flex;
@@ -39,9 +39,14 @@
   border: none;
   margin-bottom: 2.25rem;
 }
+.clientDetails div h4 span {
+  margin-right: 15px;
+}
 .user {
+  padding-top: 20px;
   margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  font-size: 50px;
+  height: 80px;
 }
 .date {
   color: gray;

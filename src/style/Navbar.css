@@ -4,7 +4,6 @@
   margin: 3rem 4rem;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 .Navbar h3 span {
   margin-right: 0.75rem;
@@ -13,11 +12,11 @@
 .Navbar h3 {
   color: blue;
 }
-.Navbook {
+.NavBook {
   display: flex;
   align-items: center;
-
   margin: 0.5rem;
+  cursor: pointer;
 }
 .navItem {
   display: flex;
@@ -26,6 +25,7 @@
   font-size: 1.1rem;
   color: gray;
   font-weight: 100;
+  cursor: pointer;
 }
 .navItem :hover {
   color: blue;
@@ -42,6 +42,10 @@
 .alert {
   display: flex;
 }
-.alert .user {
-  margin-left: 2.5em;
+.Notification {
+  cursor: pointer;
+}
+.users {
+  margin-left: 2.25rem;
+  cursor: pointer;
 }
